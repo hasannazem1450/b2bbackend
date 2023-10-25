@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\B2B.Domain\B2B.Domain.csproj" />
+    <ProjectReference Include="..\B2B.Framework.Contracts\B2B.Framework.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\News\" />
+    <Folder Include="Services\BaseInfo\City\" />
+  </ItemGroup>
+
+</Project>
